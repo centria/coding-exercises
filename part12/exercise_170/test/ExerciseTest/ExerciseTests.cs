@@ -25,7 +25,7 @@ namespace ExerciseTest
     }
 
 
-    [Test]
+/*     [Test]
     public void TestCountUsingStatement()
     {
       string code = File.ReadAllText("src/Exercise/Program.cs");
@@ -41,7 +41,7 @@ namespace ExerciseTest
       int count = Regex.Matches(code, @"Close").Count;
 
       Assert.AreEqual(count, 0, "You should not be using Close in your code with using statement!");
-    }
+    } */
 
   }
 }

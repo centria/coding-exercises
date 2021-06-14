@@ -39,7 +39,7 @@ namespace ExerciseTest
       }
     }
 
-    [Test]
+/*     [Test]
     public void TestAliasFound()
     {
       string code = File.ReadAllText("src/Exercise/Project/MasterProject.cs");
@@ -55,7 +55,7 @@ namespace ExerciseTest
       int count = Regex.Matches(code, "using Master").Count;
 
       Assert.GreaterOrEqual(count, 1, "You should create an alias 'Master' for 'MasterProject.MasterClass'!");
-    }
+    } */
 
   }
 }

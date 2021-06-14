@@ -24,7 +24,7 @@ namespace ExerciseTest
       Directory.SetCurrentDirectory(current);
     }
 
-    [Test]
+/*     [Test]
     public void TestMainExists()
     {
 
@@ -52,7 +52,7 @@ namespace ExerciseTest
       int count = Regex.Matches(code, @"Dictionary").Count;
 
       Assert.LessOrEqual(1, count, "Use Dictionary in your Class!");
-    }
+    } */
 
     [Test]
     public void TestAbbreviationsClassHasAbbs()

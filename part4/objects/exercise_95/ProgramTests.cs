@@ -17,7 +17,7 @@ namespace ProgramTests
       Assert.IsTrue(File.Exists("../../../Dog.cs"), "You haven't created the file yet");
     }
 
-    [Test]
+/*     [Test]
     public void TestFindPrivateStringName()
     {
       string code = "";
@@ -67,6 +67,6 @@ namespace ProgramTests
 
       Assert.AreEqual(1, count, "You were supposed to give the class 'private int age'!");
     }
-
+ */
   }
 }

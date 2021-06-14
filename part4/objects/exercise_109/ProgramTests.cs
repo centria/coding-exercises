@@ -135,7 +135,7 @@ namespace ProgramTests
 
       }
     }
-
+/* 
     [Test]
     public void TestFindConstructor()
     {
@@ -186,6 +186,6 @@ namespace ProgramTests
 
       Assert.AreEqual(1, count, "Remember to create the DrinkCoffee!");
     }
-
+ */
   }
 }

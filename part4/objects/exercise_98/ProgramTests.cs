@@ -16,7 +16,7 @@ namespace ProgramTests
     {
       Assert.IsTrue(File.Exists("../../../Product.cs"), "You haven't created the file yet");
     }
-
+/* 
     [Test]
     public void TestFindPrivateStringName()
     {
@@ -84,7 +84,7 @@ namespace ProgramTests
 
       Assert.AreEqual(1, count, "You were supposed to give the class a constructor!");
     }
-
+ */
     [Test]
     public void TestExerciseProductCreation()
     {

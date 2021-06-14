@@ -23,7 +23,7 @@ namespace ExerciseTest
       Directory.SetCurrentDirectory(current);
     }
 
-    [Test]
+/*     [Test]
     public void TestMainExists()
     {
 
@@ -51,7 +51,7 @@ namespace ExerciseTest
       int count = Regex.Matches(code, @"foreach").Count;
 
       Assert.LessOrEqual(1, count, "Use a foreach in your code!");
-    }
+    } */
 
     [Test]
     public void TestExercise138()

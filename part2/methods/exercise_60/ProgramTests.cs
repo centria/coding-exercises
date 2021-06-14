@@ -9,7 +9,7 @@ namespace ProgramTests
   [TestFixture]
   public class TestProgram
   {
-    [Test]
+/*     [Test]
     public void TestFindMethodNameSection1()
     {
       string code = File.ReadAllText("../../../Program.cs");
@@ -44,7 +44,7 @@ namespace ProgramTests
 
       Assert.AreEqual(1, count, "Check the section 4 instructions for method name!!");
     }
-
+ */
     [Test]
     public void TestExerciseMethodCallPrintStars()
     {

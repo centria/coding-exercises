@@ -29,7 +29,7 @@ namespace ProgramTests
       }
     }
 
-    [Test]
+/*     [Test]
     public void TestFindList()
     {
       string code = "";
@@ -61,7 +61,7 @@ namespace ProgramTests
       int count = Regex.Matches(code, @"Console.ReadLine").Count;
 
       Assert.AreEqual(1, count, "Remember to ask for user input!");
-    }
+    } */
 
     [Test]
     public void TestAddingToListWorks()

@@ -51,7 +51,7 @@ namespace ProgramTests
     {
       Assert.IsTrue(File.Exists("../../../Dalmatian.cs"), "You haven't created the file yet");
     }
-
+/* 
     [Test]
     public void TestFindPublicStringName()
     {
@@ -85,8 +85,8 @@ namespace ProgramTests
 
       Assert.AreEqual(1, count, "Remember to make spots public!");
     }
-
-    [Test]
+ */
+/*     [Test]
     public void TestFindConstructor()
     {
       string code = "";
@@ -102,6 +102,6 @@ namespace ProgramTests
 
       Assert.AreEqual(1, count, "Remember to create the constructor!");
     }
-
+ */
   }
 }
